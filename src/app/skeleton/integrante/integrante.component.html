@@ -1,0 +1,23 @@
+<section class="integrante">
+  <div class="integrante__wrapper">
+    <img src="../../../assets/images/icon-eliminar.png" alt="People img" *ngIf="genero==='sin asignar'">
+    <img src="../../../assets/images/img-boy.png" alt="People img" *ngIf="genero==='masculino'">
+    <img src="../../../assets/images/img-girl.png" alt="People img" *ngIf="genero==='femenino'">
+    <div class="integrante__info">
+      <div class="integrante__info-persona">
+        <h3 class="integrante__info-nombre">{{nombre}}</h3>
+        <p class="integrante__info-edad">( {{edad}} años )</p>
+      </div>
+      <div class="integrante__info-escuela">
+        <img class="integrante__info-escuela--img" src="../../../assets/images/icon-school.png" alt="Imagen Escuela">
+        <h4 class="integrante__info-escuela--name">{{escuela}}</h4>
+      </div>
+    </div>
+    <div class="integrante__acciones">
+      <img class="integrante__acciones-editar" src="../../../assets/images/icon-editar.png" alt="Editar" title="Editar">
+      <img class="integrante__acciones-eliminar" src="../../../assets/images/icon-eliminar.png" alt="Borrar" title="Borrar">
+    </div>
+  </div>
+  <hr class="integrante__separator"/>
+</section>
+

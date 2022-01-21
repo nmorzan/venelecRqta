@@ -1,0 +1,14 @@
+.title{
+  width: 100%;
+  font-family: Roboto Slab;
+  padding: 20px;
+  &__text{
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  &__separator{
+    border-bottom: 1px solid black;
+  }
+}

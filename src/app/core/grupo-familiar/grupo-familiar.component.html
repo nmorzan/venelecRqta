@@ -1,0 +1,10 @@
+<section class="grupoFamiliar">
+
+  <app-title title="Tu familia escolar"></app-title>
+  <div *ngFor="let integrante of grupoFamiliar">
+    <app-integrante  [nombre]=integrante.nombre 
+                     [escuela]="integrante.escuela"
+                     [genero]="integrante.genero"
+                     [edad]="integrante.edad"></app-integrante>
+  </div>
+</section>
